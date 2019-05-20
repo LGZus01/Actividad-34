@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta content="application-name" content="Actividad 26">
+    <meta name="description" content="Estancia en CONALEP">
+    <meta name="keywords" content="Jesús, LGZús, Estancia, Conalep">
+    <meta name="author" content="JGG, lgzus01@protonmail.com">
+    <meta name="copyright" content="CONALEP 153">
+	<title> AL REVES </title>
+</head>
+<body>
+	<script>
+    	var cadena = prompt("Introduce un Texto:");
+    	var numchar = cadena.length;
+    	var j;
+    	var car;
+    	var salida = "";
+    	for (j = 0; j < numchar; j++) {
+        	car = cadena.charAt(j);    //recupera el caracter i del string.
+        	salida = car + salida;
+    	}
+    	document.write(salida);
+	</script>
+</body>
+</html>
